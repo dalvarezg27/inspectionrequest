@@ -14,9 +14,13 @@ import { AppHeaderComponent } from './layouts/full/header/header.component';
 import { AppSidebarComponent } from './layouts/full/sidebar/sidebar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DemoMaterialModule } from './demo-material-module';
+import {MatTableModule} from '@angular/material/table';
+ 
 
 import { SharedModule } from './shared/shared.module';
 import { SpinnerComponent } from './shared/spinner.component';
+
+
 
 @NgModule({
   declarations: [
@@ -25,6 +29,7 @@ import { SpinnerComponent } from './shared/spinner.component';
     AppHeaderComponent,
     SpinnerComponent,
     AppSidebarComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -34,6 +39,7 @@ import { SpinnerComponent } from './shared/spinner.component';
     FlexLayoutModule,
     HttpClientModule,
     SharedModule,
+    MatTableModule,
     RouterModule.forRoot(AppRoutes)
   ],
   providers: [

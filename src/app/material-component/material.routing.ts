@@ -17,6 +17,7 @@ import { SnackbarComponent } from './snackbar/snackbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
 import { NuevoComponent } from './nuevo/nuevo.component';
+import { TableComponent } from './table/table.component';
 
 export const MaterialRoutes: Routes = [
   {
@@ -86,5 +87,9 @@ export const MaterialRoutes: Routes = [
   {
     path: 'nuevo',
     component: NuevoComponent
+  },
+  {
+    path: 'table',
+    component: TableComponent
   }
 ];

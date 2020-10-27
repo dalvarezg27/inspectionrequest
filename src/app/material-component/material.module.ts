@@ -32,6 +32,8 @@ import { SnackbarComponent } from './snackbar/snackbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
 import { NuevoComponent } from './nuevo/nuevo.component';
+import { TableComponent } from './table/table.component';
+
 
 @NgModule({
   imports: [
@@ -64,7 +66,8 @@ import { NuevoComponent } from './nuevo/nuevo.component';
     SnackbarComponent,
     SliderComponent,
     SlideToggleComponent,
-    NuevoComponent
+    NuevoComponent,
+    TableComponent
   ]
 })
 export class MaterialComponentsModule {}
